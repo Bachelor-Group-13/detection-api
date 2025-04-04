@@ -1,6 +1,7 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from routes import parking_detection
+from routes import license_plate
 
 app = FastAPI()
 
@@ -13,6 +14,7 @@ app.add_middleware(
 )
 
 app.include_router(parking_detection.router)
+app.include_router(license_plate.router)
 
 if __name__ == "__main__":
   import uvicorn
