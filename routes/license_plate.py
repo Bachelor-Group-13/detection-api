@@ -1,4 +1,3 @@
-# routes/license_plate.py
 from fastapi import APIRouter, UploadFile, File, HTTPException
 import cv2
 import numpy as np
