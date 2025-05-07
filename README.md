@@ -1,4 +1,4 @@
-# <center><h2>Detection API</h2></center>
+# <center>Detection API</center>
 
 ---
 
