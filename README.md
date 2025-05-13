@@ -27,18 +27,13 @@ This is a bachelor project at NTNU in course [IDATA2900][IDATA2900-url]. The Pro
 We have had regular meetings with client and school supervisor to have a steady progress in the throghout the development.
 
 This repository is the picture recognition component.
-Main functionality is to recognise the plate numbers from the imported pictures. This happen through Open Computer Vision, with a fallback safety through Azure Computer Vision.
+Main functionality is to recognise the objects from the imported pictures. This happen through Open Computer Vision.
 
 ---
 
 ### Technologies
 
-Java Spring Boot
 Open CV
-Azure CV
-Docker
-Maven
-Lombok
 Yolo v8
 Fast API - Python
 Uvicorn - Python
@@ -46,7 +41,6 @@ Uvicorn - Python
 #### Requirements
 
 Python 3.10+
-Java 17+ (for the Spring Boot components)
 
 ---
 
