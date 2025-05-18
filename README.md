@@ -31,7 +31,7 @@ This is the detection service of the Inneparkert system, built with Python and F
 - **Image Processing**: OpenCV
 
 ### Project Structure
-
+```
 python-api/
 ├── routes/
 │ ├── parking_detection.py
@@ -41,7 +41,7 @@ python-api/
 ├── main.py
 ├── requirements.txt
 └── Dockerfile
-
+```
 
 ## API Endpoints
 
