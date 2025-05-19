@@ -43,16 +43,12 @@ python-api/
 └── Dockerfile
 ```
 
-## API Endpoints
+## API Endpoint
 
 - `POST /parking-detection`
   - Detects vehicles in parking areas
   - Returns vehicle positions and processed image
-
-- `POST /license-plate`
-  - Detects and recognizes license plates
-  - Returns list of valid plate numbers
-
+  
 ## Development Setup
 
 ### Prerequisites
